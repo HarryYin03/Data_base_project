@@ -66,7 +66,7 @@
     background: #1d1b31;
     transition: all;
 }
-/* homepage part */
+
 .home-section{
     position: relative;
     background: #e1dfdf;
@@ -90,4 +90,155 @@
 .home-section .home-content i{
     color: #11101d;
     font-size: 35px;
+}
+.text-details{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 80px;
+    padding-left: 80px;
+    align-items: center;
+}
+.text-details h1{
+    font-weight: 500;
+}
+.user-details1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 80px;
+    padding-top: 20px;
+    align-items: center;
+}
+.logo1 img{
+    width: 80px;
+    height: 80px;
+}
+.name1{
+    padding-right: 200px;
+}
+.name1 ul{
+    list-style-type: none;
+    width: 650px;
+}
+.name1 a{
+    text-decoration: none;
+    color: black;
+}
+.button1{
+    padding-right: 250px;
+}
+.button1 form button{
+    width: 90px;
+    height: 40px;
+    border: none;
+    color: white;
+}
+.button1 form .aprrove1{
+    background-color: green;
+    width: 100px;
+    cursor: pointer;
+}
+.button1 form .reject1{
+    background-color: red;
+    width: 100px;
+    cursor: pointer;
+}
+.user-details2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 80px;
+    align-items: center;
+}
+.user-details2 img{
+    width: 80px;
+    height: 80px;
+}
+.name2{
+    padding-right: 220px;
+}
+.name2 ul{
+    list-style-type: none;
+    width: 650px;
+}
+.name2 a{
+    text-decoration: none;
+    color: black;
+}
+.button2{
+    padding-right: 260px;
+    display: flex;
+}
+.button2 form button{
+    width: 90px;
+    height: 40px;
+    border: none;
+    color: white;
+}
+.button2 form .approve2{
+    background-color: green;
+    width: 150px;
+    /* margin-right: 10px; */
+    cursor: pointer;
+}
+/* .button2 form .bx-check-circle{
+    color: green;
+    align-items: center;
+    font-size: 10px;
+    
+} */
+.bx-check-circle{
+    color: green;
+    width: 20px;
+    font-size: 50px;
+    align-items: center;
+}
+
+
+
+.user-details3{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 80px;
+    align-items: center;
+}
+.user-details3 img{
+    width: 80px;
+    height: 80px;
+}
+.name3{
+    padding-right: 220px;
+}
+.name3 ul{
+    list-style-type: none;
+    width: 650px;
+}
+.name3 a{
+    text-decoration: none;
+    color: black;
+}
+.button3{
+    padding-right: 260px;
+    display: flex;
+}
+.button3 form button{
+    width: 90px;
+    height: 40px;
+    border: none;
+    color: white;
+}
+.button3 form .reject2{
+    background-color: red;
+    width: 150px;
+    /* margin-right: 10px; */
+    cursor: pointer;
+}
+.bx-x-circle{
+    color: red;
+    width: 20px;
+    font-size: 50px;
 }
