@@ -526,5 +526,247 @@ input[type="radio"]{
 
 
 
+/* seller-application */
+.user-details1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 80px;
+    padding-top: 80px;
+    align-items: center;
+}
+.logo1 img{
+    width: 80px;
+    height: 80px;
+}
+.name1{
+    padding-right: 150px;
+}
+.name1 ul{
+    list-style-type: none;
+    width: 650px;
+}
+.name1 a{
+    text-decoration: none;
+    color: black;
+}
+.button1{
+    padding-right: 250px;
+}
+.button1 form button{
+    width: 90px;
+    height: 40px;
+    border: none;
+    color: white;
+}
+.button1 form .aprrove1{
+    background-color: green;
+    width: 100px;
+    cursor: pointer;
+}
+.button1 form .reject1{
+    background-color: red;
+    width: 100px;
+    cursor: pointer;
+}
+.user-details2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 80px;
+    align-items: center;
+}
+.user-details2 img{
+    width: 80px;
+    height: 80px;
+}
+.name2{
+    padding-right: 170px;
+}
+.name2 ul{
+    list-style-type: none;
+    width: 650px;
+}
+.name2 a{
+    text-decoration: none;
+    color: black;
+}
+.button2{
+    padding-right: 260px;
+    display: flex;
+}
+.button2 form button{
+    width: 90px;
+    height: 40px;
+    border: none;
+    color: white;
+}
+.button2 form .approve2{
+    background-color: green;
+    width: 150px;
+    /* margin-right: 10px; */
+    cursor: pointer;
+}
+/* .button2 form .bx-check-circle{
+    color: green;
+    align-items: center;
+    font-size: 10px;
+    
+} */
+.bx-check-circle{
+    color: green;
+    width: 20px;
+    font-size: 50px;
+    align-items: center;
+}
+
+
+
+.user-details3{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 80px;
+    align-items: center;
+}
+.user-details3 img{
+    width: 80px;
+    height: 80px;
+}
+.name3{
+    padding-right: 170px;
+}
+.name3 ul{
+    list-style-type: none;
+    width: 650px;
+}
+.name3 a{
+    text-decoration: none;
+    color: black;
+}
+.button3{
+    padding-right: 260px;
+    display: flex;
+}
+.button3 form button{
+    width: 90px;
+    height: 40px;
+    border: none;
+    color: white;
+}
+.button3 form .reject2{
+    background-color: red;
+    width: 150px;
+    /* margin-right: 10px; */
+    cursor: pointer;
+}
+.bx-x-circle{
+    color: red;
+    width: 20px;
+    font-size: 50px;
+}
+
+
+
+
+
+/* apllication_detail */
+.contact_information{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 80px;
+    padding-left: 80px;
+    align-items: center;
+}
+h2{
+    border-bottom: 8px solid;
+    position: absolute;
+}
+.user_info{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 80px;
+    padding-top: 20px;
+}
+.user_info ul{
+    list-style: none;
+}
+.user_info a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.user_info li{
+    margin: 10px 0;
+}
+.user-detail {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding-right: 20px;
+    font-weight: bold;
+}
+.user-detail li{
+    margin: 10px 0;
+}
+img{
+    width: 200px;
+    height: 200px;
+    margin-right: 90px;
+}
+.bart{
+    display: flex;
+    margin-top: -20px;
+}
+.situation{
+    padding-top: 10px;
+    padding-left: 80px;
+}
+.situation_info{
+    display: flex;
+    padding-left: 80px;
+    padding-top: 20px;
+}
+.situation_info ul{
+    list-style: none;
+}
+.situation_info a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.situation_info li{
+    margin: 10px 0;
+}
+.reason{
+    padding-top: 50px;
+    padding-left: 80px;
+}
+.reason_info{
+    display: flex;
+    padding-left: 80px;
+    padding-top: 60px;
+}
+.reason_info ul{
+    list-style: none;
+}
+.reason_info a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.reason_info li{
+    margin: 10px 0;
+}
+
+
+
+
+
+
 
 
