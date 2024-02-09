@@ -117,51 +117,33 @@
         <section class="home-section">
             <nav class="home-content">
                 <i class="bx bx-menu"></i>
-                <span class="text">Product Profile</span>
+                <span class="text">New Listing</span>
             </nav>
-            <div class = "product_detail">
-                <img src = "Assets/Image/Samoyed (1).jpg" alt = "Samoyed">
-                <div class = "product_info">
-                    <h2>Samoyed Available for Sale!!!</h2>
-                    <ul>
-                        <li><a href = "#">Name: Chu Chu</a></li>
-                        <li><a href = "#">Breed: Samoyed</a></li>
-                        <li><a href = "#">Listing_id: 123434555</a></li>
-                        <li><a href = "#">Date of Birth: 17/ 04/ 2023</a></li>
-                        <li><a href = "#">Sex: Male</a></li>
-                        <li><a href = "#">Price: $4000</a></li>
-                        <li><a href = "#">Ready To Leave: Now</a></li>
-                    </ul>
+            <div class = "list_upload">
+                <input type = "file" id = "fileInput">
+                <label for = "fileInput">
+                    <i class='bx bx-upload' ></i>
+                    <span>Upload</span>
+                <div class = "list_upload-detail">
+                    <input type = "text" placeholder="Name" class = "list_upload-name">
+                    <input type = "text" placeholder="Price" class = "list_upload-price">
+                    <input type = "text" placeholder="Animal Type" class = "list_upload-animal">
+                    <input type = "text" placeholder="Breed Type" class = "list_upload-breed">
+                    <h5>DOB</h5>
+                    <input type = "date" placeholder="DOB" class = "list_upload-dob">
+                    <select class = "select-container">
+                        <option value = "">Sex</option>
+                        <option value = "male">Male</option>
+                        <option value = "female">Female</option>
+                    </select>
+                    <select class = "select-container1">
+                        <option value = "">Ready To Leave</option>
+                        <option value = "yes">Yes</option>
+                        <option value = "no">No</option>
+                    </select>
+                </div>
+                <div class = "list_upload-detail1">
+                    <input type = "text" placeholder="Description" class = "list_upload-description">
                 </div>
             </div>
-            <div class = "about_product"><hr><br>
-                <h2>About Samoyed</h2>
-                <p>The Samoyed is a substantial but graceful dog standing anywhere from 19 to a bit over 23 inches at the shoulder. Powerful, tireless, with a thick all-white coat impervious to cold, Sammies are perfectly beautiful but highly functional. Even their most delightful feature, a perpetual smile, has a practical function: The upturned corners of the mouth keep Sammies from drooling, preventing icicles from forming on the face. A Sammy sentenced to solitary confinement in the yard is a miserable and destructive creature...</p><br><hr>
-            </div>
-            <div class = "product_package">
-                <h2>Puppy Care Package</h2>
-                <form>
-                    <input type = "checkbox">
-                        <a href = "#">Vaccinated</a>
-                    </input>
-                    <input type = "checkbox">
-                        <a href = "#">Dewormed</a>
-                    </input>
-                    <input type = "checkbox">
-                        <a href = "#">Veterinary Checkup Performed</a><br>
-                    </input><br>
-                    <input type = "checkbox">
-                        <a href = "#">Puppy Starter Kit</a>
-                    </input>
-                    <input type = "checkbox">
-                        <a href = "#">Puppy Socialization Started</a>
-                    </input>
-                    <input type = "checkbox">
-                        <a href = "#">AKC DNA Profile Tested</a>
-                    </input>
-                </form>
-            </div>
-        </section>
-        <script src = "Assets/JS/script.js"></script>
-    </body>
-</html>
+            <script src = "Assets/JS/script.js"></script>
